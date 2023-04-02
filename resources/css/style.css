@@ -96,11 +96,13 @@ nav a:hover {
 }
 
 
-/* Banner 
+/* Banner*/ 
+
+.banner {
+    background-color: aquamarine;
+}
 
 .ban-container {
-    background-color: aquamarine;
-    display: flex;
     align-items: center;
     gap: 24px;
 }
@@ -109,40 +111,45 @@ nav a:hover {
 .ban-img {
     background-color: aqua;
     border: 2px solid darkblue;
-    margin: 32px 24px;
-    width: 100%;
+    width: 60%;
 
-}
-
-.banner-pic{
-    width: 100%;
-}
-
-.ban-text-con {
-    flex-direction: column;
-    padding-left: 24px;
-    width: 80%;
-}
-
-.banner-cpt {
-    background-color: blue;
-    display: inline-flex;
 }
 
 .banner-txt {
-    background-color: red;
-    display: inline-flex;
+    width: 80%;
+    padding-left: 16px;
 }
 
-.banner-btn {
-    background-color: black;
+.banner-right p {
+    font-size: 1.8vw;
+    font-weight: 500;
+    padding: 32px 0;
+}
+
+.banner-right button {
     width: 100%;
     padding: 15px;
-    display: inline-flex;
-    color: antiquewhite;
+    font-size: 1.5vw;
+    background-color: #464646;
+    color: white;
     border: none;
 }
-*/
+
+.left-2 {
+    width: 60%;
+    padding: 32px 0;
+}
+
+.left-2 img {
+    width: 100%;
+}
+
+/*Information*/
+
+
+
+
+
 /* Footer */
 
 footer {
