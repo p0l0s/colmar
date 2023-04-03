@@ -145,9 +145,42 @@ nav a:hover {
     width: 40%;
 }
 
-/*Information*/
+/*Information/Events*/
+.info {
+    gap: 24px;
+}
 
+.right-2 article {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}
 
+.b-left {
+    border-left: 1px solid lightgray;
+    padding-top: 16px;
+}
+
+.right-2 article:hover {
+    background-color: lightgray;
+}
+
+.right-2 figure {
+    width: 35%
+}
+
+.right-2 img {
+    width: 100%;
+}
+
+.right-2 a {
+    color: #5A89E4;
+    text-decoration: none;
+    font-size: 1.2vw;
+
+}
 
 
 
@@ -211,7 +244,50 @@ footer {
     .banner-right button{
         background-color: rgb(136, 136, 136);
     }
+/*Information/Events*/
+
+.info-left{
+    display: none;
 }
+.b-left{
+    padding: 0 0 16px;
+    border-bottom: 1px solid lightgray;
+}
+.right-2 article{
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    border: none;   
+}
+.right-2 section{
+    width: 100%;
+}
+.right-2 figure{
+    width: 100%;
+}
+
+.orient{
+    content: url("/resources/assets/images/information-orientation-mobile.jpg");
+}
+.campus{
+    content: url("/resources/assets/images/information-campus-mobile.jpg");
+}
+.guest{
+    content: url("/resources/assets/images/information-guest-lecture-mobile.jpg");
+}
+h3{
+    font-size: 4.5vw;
+}
+p{
+    font-size: 3.5vw;
+}
+.right-2 a{
+    font-size: 3vw;
+}*
+
+}
+
+
 
 @media only screen and (min-width: 600px){
     .nav {
