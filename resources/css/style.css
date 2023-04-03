@@ -110,6 +110,7 @@ nav a:hover {
 
 .ban-img {
     width: 60%;
+
 }
 
 .banner-txt {
@@ -132,6 +133,11 @@ nav a:hover {
     border: none;
 }
 
+/*Information/Events*/
+.info {
+    gap: 24px;
+}
+
 .left-2 {
     width: 60%;
     padding: 32px 0;
@@ -145,23 +151,21 @@ nav a:hover {
     width: 40%;
 }
 
-/*Information/Events*/
-.info {
-    gap: 24px;
-}
-
 .right-2 article {
     display: flex;
     align-items: center;
     gap: 24px;
-    padding: 16px;
-    border-bottom: 1px solid lightgray;
 }
 
 .b-left {
     border-left: 1px solid lightgray;
     padding-top: 16px;
 }
+
+.right-2 article {
+    padding: 16px;
+    border-bottom: 1px solid lightgray;
+}    
 
 .right-2 article:hover {
     background-color: lightgray;
@@ -173,6 +177,10 @@ nav a:hover {
 
 .right-2 img {
     width: 100%;
+}
+
+.right-2 section {
+    width: 65%;
 }
 
 .right-2 a {
@@ -268,12 +276,15 @@ footer {
 
 .orient{
     content: url("/resources/assets/images/information-orientation-mobile.jpg");
+    max-width: 100%;
 }
 .campus{
     content: url("/resources/assets/images/information-campus-mobile.jpg");
+    max-width: 100%;
 }
 .guest{
     content: url("/resources/assets/images/information-guest-lecture-mobile.jpg");
+    max-width: 100%;
 }
 h3{
     font-size: 4.5vw;
@@ -293,4 +304,5 @@ p{
     .nav {
         display: none;
     }
+
 }
